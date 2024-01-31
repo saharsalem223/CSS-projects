@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(40, 99, 70);
+}
+h1 {
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    text-align: center;
+    color: grey;
+    border: 1px white dotted;
+    background-color: white;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 30px;
+}
+#firstph {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}

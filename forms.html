@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in CSS</title>
+    <style>
+        input{
+            width: 100%;
+            padding: 10px;
+            border-bottom: 2px solid black;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            margin-bottom: 10px;
+        }
+input[type=email] {
+    border: 3px dotted black;
+    background-image:url(email.png.png) ;
+    background-position: .5px .5px;
+    background-repeat: no-repeat;
+    padding: 40px ;
+}
+input:focus {
+    background-color: grey;
+    color: white;
+}
+    </style>
+</head>
+<body>
+   <h1>log in page</h1> 
+   <form action="#" method="post">
+    <label for="firstName">First Name</label>
+    <input type="text" id="firstName"/> 
+    <label for="LastName">Last Name</label>
+    <input type="text" id="LastName"> 
+    <label for="Email">Email</label>
+    <input type="email" id="Email"> 
+    <label for="Password">Password</label>
+    <input type="text" id="Password">
+    
+   </form>
+
+</body>
+</html>

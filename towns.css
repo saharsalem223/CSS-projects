@@ -1,0 +1,37 @@
+body {
+    background-color: white;
+  }
+  h1{
+    text-align: center;
+    color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h2 {
+    color: rgb(85, 85, 126);
+  }
+  div {
+    padding: 10px;
+    word-spacing: 5px;
+  }
+ 
+
+ #Westport {
+    width: 40%;
+    float: left;
+
+ }
+ #Trumbull {
+    width: 40%;
+    float: left;
+}
+#Stamford
+{
+    width: 40%;
+    float: left;
+}
+ #Fairfield 
+ {width: 40%;
+float: left;}
+
+ 
+
